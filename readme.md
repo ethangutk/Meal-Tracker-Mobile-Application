@@ -11,9 +11,17 @@ I created this program as my final project for this class. I was between a coupl
 
 <br><br><br>
 ## 🧮 The *Fancy* Features
-### ⭕ Application Programing Interfaces (APIs)
-
-
+### 📡 Application Programing Interfaces (APIs)
+<br><br>
+### ⚙ User Preferences
+<br><br>
+### 🏗 MVVM Architecture
+<br><br>
+### 💾 Local Databases
+<br><br>
+### 📱 Being Multipage
+<br><br>
+### 📃 List Views
 <br><br>
 
 
