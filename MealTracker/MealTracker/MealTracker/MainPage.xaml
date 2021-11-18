@@ -9,5 +9,4 @@
 
     <local:Diary Title="Diary"/>
     <local:Track Title="Track"/>
-    <local:Summary Title="Summary"/>
 </TabbedPage>
