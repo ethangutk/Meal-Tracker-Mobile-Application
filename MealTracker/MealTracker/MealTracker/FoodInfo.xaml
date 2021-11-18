@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MealTracker.FoodInfo">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button" x:Key="actionButton">
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BackgroundColor" Value="MidnightBlue"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="BorderColor" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="20,20,20,0">
+            <Image x:Name="ImageFood" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center"/>
+            <Label x:Name="LabelFoodName" Text="Food Name (000 calories)" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="Medium" FontAttributes="Bold"/>
+            <Label x:Name="LabelResturantName" Text="Resturant Name" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" FontSize="Small" TextColor="DarkGray" FontAttributes="Bold"/>
+ 
+            <Grid ColumnDefinitions="3" RowDefinitions="1" Padding="0,10,0,20">
+                <Label Text="Amount"  HorizontalTextAlignment="Center"  Grid.Column="2" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="Daily Percentage" HorizontalTextAlignment="Center" Grid.Column="3" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+            </Grid>
+            
+            <Grid ColumnDefinitions="3" RowDefinitions="1" Padding="20,0,0,20">
+                <Label Text="Carbs" Grid.Column="1" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelCarbsAmount" HorizontalTextAlignment="Center" Grid.Column="2" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelCarbsDP" HorizontalTextAlignment="Center" Grid.Column="3" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="3" RowDefinitions="1" Padding="20,0,0,20">
+                <Label Text="Fat" Grid.Column="1" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelFatAmount" HorizontalTextAlignment="Center" Grid.Column="2" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelFatDP" HorizontalTextAlignment="Center" Grid.Column="3" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="3" RowDefinitions="1" Padding="20,0,0,20">
+                <Label Text="Protien" Grid.Column="1" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelProtienAmount" HorizontalTextAlignment="Center" Grid.Column="2" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+                <Label Text="" x:Name="LabelProtienDP" HorizontalTextAlignment="Center" Grid.Column="3" Grid.Row="1" FontAttributes="Bold" FontSize="Small"/>
+            </Grid>
+            <DatePicker x:Name="DatePickerCurrentFoodDate"/>
+            <Grid RowDefinitions="1" ColumnDefinitions="2">
+                <Picker x:Name="PickerMeal" WidthRequest="200" Grid.Column="1" Grid.Row="1"/>
+                <Button Style="{StaticResource actionButton}" x:Name="addToLogButton" IsVisible="false" Text="Add To Log" Grid.Column="2" Grid.Row="1" Clicked="Button_Clicked"/>
+            </Grid>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

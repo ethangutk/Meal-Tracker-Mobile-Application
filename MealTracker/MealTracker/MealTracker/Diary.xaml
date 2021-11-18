@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MealTracker.Diary">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="AliceBlue" Padding="0,20,0,20">
+            <DatePicker x:Name="diaryDatePicker" PropertyChanged="diaryDatePicker_PropertyChanged"/>
+            <Grid RowDefinitions="4" ColumnDefinitions="1">
+                <Grid Grid.Column="1" Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Text="Breakfast" Padding="20,0,0,0" BackgroundColor="LightBlue" FontAttributes="Bold" FontSize="Medium" TextColor="Black" Grid.Row="1" Grid.Column="0"/>
+
+                    <Label Text="Calories" FontAttributes="Bold" FontSize="Body" TextColor="Black" VerticalOptions="End" Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="Carbs" FontAttributes="Bold" FontSize="Body" TextColor="Navy" VerticalOptions="End" Grid.Row="1" Grid.Column="2"/>
+                    <Label Text="Fat" FontAttributes="Bold" FontSize="Body" TextColor="Maroon" VerticalOptions="End" Grid.Row="1" Grid.Column="3"/>
+                    <Label Text="Protien" FontAttributes="Bold" FontSize="Body" TextColor="DarkGreen" VerticalOptions="End" Grid.Row="1" Grid.Column="4"/>
+                    <ListView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="5" x:Name="ListViewBreakfast" BackgroundColor="FloralWhite"/>
+                </Grid>
+
+                <StackLayout Grid.Column="1" Grid.Row="2">
+                    <Label Text="Lunch"  Padding="20,0,0,0" BackgroundColor="LightBlue"  FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                    <ListView x:Name="ListViewLunch" BackgroundColor="FloralWhite"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="3">
+                    <Label Text="Dinner" Padding="20,0,0,0" BackgroundColor="LightBlue"  FontAttributes="Bold" FontSize="Medium" TextColor="Black"/>
+                    <ListView x:Name="ListViewDinner" BackgroundColor="FloralWhite"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Grid.Row="4">
+                    <Label Text="Snacks" Padding="20,0,0,0" BackgroundColor="LightBlue"  FontAttributes="Bold" FontSize="Medium"
+                       TextColor="Black"/>
+                    <ListView x:Name="ListViewSnacks" BackgroundColor="FloralWhite"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

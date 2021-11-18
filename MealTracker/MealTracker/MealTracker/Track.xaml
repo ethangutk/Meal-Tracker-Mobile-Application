@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MealTracker.Track">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="macrosLabel">
+                <Setter Property="Padding" Value="60,0"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="FontSize" Value="Body"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style TargetType="Entry" x:Key="macrosEntry">
+                <Setter Property="Text" Value="0"/>
+                <Setter Property="TextColor" Value="Gray"/>
+            </Style>
+            <Style TargetType="Button" x:Key="actionButton">
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BackgroundColor" Value="MidnightBlue"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="BorderWidth" Value="1"/>
+                <Setter Property="BorderColor" Value="Black"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="AliceBlue">
+            <Grid ColumnDefinitions="3,*" Padding="5,10,5,25" RowDefinitions="11">
+                <Entry Style="{StaticResource macrosEntry}" Text="Food  Name" x:Name="EntryFoodName" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" HorizontalTextAlignment="Center"/>
+
+                <Label Text="Calories:" VerticalOptions="Center" Grid.Column="1" Grid.Row="3" FontSize="Small" FontAttributes="Bold"/>
+                <Entry Style="{StaticResource macrosEntry}" x:Name="EntryCalories" Grid.Column="2" Grid.Row="3" PropertyChanged="MacrosChanged"/>
+
+                <Label Text="Fat (g):" Style="{StaticResource macrosLabel}" x:Name="LabelFat" Grid.Column="1" Grid.Row="4"/>
+                <Entry Style="{StaticResource macrosEntry}" x:Name="EntryFat" Grid.Column="2" Grid.Row="4" PropertyChanged="MacrosChanged"/>
+
+                <Label Text="Protien (g):" Style="{StaticResource macrosLabel}" x:Name="LabelProtien" Grid.Column="1" Grid.Row="5"/>
+                <Entry Style="{StaticResource macrosEntry}" x:Name="EntryProtien" Grid.Column="2" Grid.Row="5" PropertyChanged="MacrosChanged"/>
+
+                <Label Text="Carbs (g):" Style="{StaticResource macrosLabel}" x:Name="LabelCarbs" Grid.Column="1" Grid.Row="6"/>
+                <Entry Style="{StaticResource macrosEntry}" x:Name="EntryCarbs" Grid.Column="2" Grid.Row="6" PropertyChanged="MacrosChanged"/>
+
+                <Label Text="Meal:" VerticalOptions="Center" Grid.Column="1" Grid.Row="7" FontSize="Small" FontAttributes="Bold"/>
+                <Picker x:Name="PickerMeal" Grid.Column="2" Grid.Row="7"/>
+                
+                <DatePicker x:Name="DatePickerForLog" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="8" VerticalOptions="CenterAndExpand" />
+            </Grid>
+            <StackLayout Padding="5,10,5,25">
+                <Button Text="Manually Add" Style="{StaticResource actionButton}" Clicked="Button_Clicked" HeightRequest="75" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+                <Button Style="{StaticResource actionButton}" HeightRequest="75" Text="Search for food" Clicked="searchItem"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
