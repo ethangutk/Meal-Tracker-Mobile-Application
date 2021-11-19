@@ -8,6 +8,8 @@ This course is rarely offered at Miami University so when I found out they were 
 ## 🌮 About The Program
 I created this program as my final project for this class. I was between a couple of ideas since we were given the freedom to choose but I decided to use a meal tracker. I picked this idea for the sole reason of wanting to experiment with APIs. I thought the idea of a meal tracker gave me a lot of opportunities to find different APIs about food online. I ended up paying to use two different APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items) and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Other requirements of the project were the use of web services, user preferences, MVVM architecture, local databases, being multipage, listviews, and images. The program was 22% of my final grade and I got a 94% on it with some points being deducted due to the midpoint demonstration.
 
+
+<br><br><br>
 ## 🥞 Note
 If you are going to download this and try to run this program in Visual Studio, there is a couple of things you might have to do to get it to run for an android simulation and UWP. First, you have to download the workload that uses Xamarin for cross-platform mobile application development. You can do this by going to <br>
 
