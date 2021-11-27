@@ -6,10 +6,13 @@ This course is offered rarely at Miami University, so I immediately signed up fo
 
 <br><br>
 ## 🌮 About The Program
-I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea for the sole reason of wanting to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. I ended up paying to use two other APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, with some points deducted due to the midpoint demonstration.
+I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea for the sole reason of wanting to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. I ended up paying to use two separate APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, with some points deducted due to the midpoint demonstration.
+
+
+
 <br><br>
 ## 🥞 Note
-If you download this and run this program in Visual Studio, you might have to do a couple of things to run for an android simulation and UWP. First, you have to download the workload that uses Xamarin for cross-platform mobile application development. You can do this by going to <br>
+If you download this and run this program in Visual Studio, you might have to do a couple of things to run for the android and UWP simulation. First, you have to download the workload that uses Xamarin for cross-platform mobile application development. You can do this by going to <br>
 
 <p align="center">
   <b>Tools > Get Tools and Features > Download Mobile Development with .NET</b><br><br>
@@ -28,7 +31,7 @@ This should allow you to run it within UWP and potentially an android simulation
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
 - [Get Specific Item Information](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information)
 
-The best part about this program, without a doubt. I found this elegant API to use online revolving all-around food. The two in particular that I used were dependent on one another within my program. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a little bit more tedious and challenging, but it worked out great in the end. The first API takes a series of food/meal keywords and lists results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
+The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two in particular that I used were dependent on one another within my program. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a little bit more tedious and challenging, but it worked out great in the end. The first API takes a series of food/meal keywords and lists results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
 
 <br>
 
@@ -103,7 +106,7 @@ Another navigation feature used is stacked navigation. Furthermore, when you sea
 
 <br><br>
 ### 🌯 List Views
-List views appear throughout the program. List views show the diary contents, including all of the macronutrients and the food name. The list view for the search results creates a set of buttons. The user can click on them and get the additional macros for the food. 
+List views appear throughout the program and show the diary contents, including the macronutrients and the food name. Also, the search results list view creates a set of buttons where the user can get the additional macros for the food. 
 
 <br>
 
