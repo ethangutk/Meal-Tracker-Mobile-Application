@@ -179,15 +179,22 @@ List views appear throughout the program and show the diary contents, including 
 
 <img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_6.png?raw=true">
 
-
-
 <br><br><br>
+
+- - - -
+<p align="center">
+	<a align="center" href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-meal-tracker-mobile-application">⬆ Back To The Top </a>
+</p>
+
+- - - -
+
+<p align="center">
+	<a href="https://github.com/ethangutknecht">↩ Back To Ethan Gutknecht's Profile</a>
+</p>
 
 - - - -
 
 <p align="center">
   Copyright © Ethan Gutknecht 2021
 </p>
-
-
 
