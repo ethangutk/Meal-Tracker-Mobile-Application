@@ -1,3 +1,7 @@
+<h6 >
+	<a href="https://github.com/ethangutknecht">↩ Back To Ethan Gutknecht's Profile</a>
+</h6>
+
 <h1 align="center">🍽 Meal Tracker Mobile Application</h1><br>
 <table align="center">
 	<tr>
@@ -22,12 +26,12 @@
 		</td>
   	</tr>
 </table><br>
-<br><br>
+<br>
 
 
 ## 🎓 About The Class
 #### CSE382 - Mobile Application Development
-This course is offered rarely at Miami University, so I immediately signed up for it when I found out they were delivering it in the Summer of 2021. The class dove straight into topics as it was a pretty intense course being only six weeks long. We had five projects, a final project, ‘exam-like weekly quizzes, and assignments accompanying our lecture videos. The class was delightful due to its organization. 
+This course is rarely offered at Miami University, so I immediately signed up for it when they delivered it in the Summer of 2021. The class dove straight into topics as it was only six weeks long. We had five projects, a final project, ‘exam-like weekly quizzes, and assignments accompanying our lecture videos. The class was delightful. 
 
 
 <br><br>
@@ -118,7 +122,7 @@ I used Visual Studio’s NuGet package search feature for this application to fi
  
 <br><br>
 ### 🍟 Multipage Application
-Pretty self-explanatory, the idea that your application has navigation between multiple pages. My application is tabbed. You can navigate between various pages by using the buttons located at the top or bottom of your screen. The example below demonstrates only two tabs, Diary and Track.
+A multipage application UI defines your application’s navigation between multiple pages. My application is tabbed. You can navigate between pages using the buttons located at the top or bottom of your screen. The example below demonstrates only two tabs, Diary and Track.
 
 <br>
 
@@ -182,19 +186,19 @@ List views appear throughout the program and show the diary contents, including 
 <br><br><br>
 
 - - - -
-<p align="center">
+<h6 align="center">
 	<a align="center" href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-meal-tracker-mobile-application">⬆ Back To The Top </a>
-</p>
+</h6>
 
 - - - -
 
-<p align="center">
+<h6 align="center">
 	<a href="https://github.com/ethangutknecht">↩ Back To Ethan Gutknecht's Profile</a>
-</p>
+</h6>
 
 - - - -
 
-<p align="center">
+<h6 align="center">
   Copyright © Ethan Gutknecht 2021
-</p>
+</h6>
 
