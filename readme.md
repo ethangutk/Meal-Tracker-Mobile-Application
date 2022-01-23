@@ -199,6 +199,6 @@ List views appear throughout the program and show the diary contents, including 
 - - - -
 
 <h6 align="center">
-  Copyright © Ethan Gutknecht 2021
+  Copyright © Ethan Gutknecht 2022
 </h6>
 
