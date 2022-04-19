@@ -11,18 +11,18 @@
 	</tr>
 	<tr>
 		<td>
-			<a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-about-the-class">🎓 About The Class</a><br><br>
-			<a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-about-the-program">🌮 About The Program</a><br><br>
-			<a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-the-tasty-features">🍕 The Tasty Features</a>
+			<a href="#-about-the-class">🎓 About The Class</a><br><br>
+			<a href="#-about-the-program">🌮 About The Program</a><br><br>
+			<a href="#-the-tasty-features">🍕 The Tasty Features</a>
 			<ul>
-				<li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-application-programing-interfaces-apis">🥗 Application Programing Interfaces (APIs)</a></li>
-        <li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-favorite-food-user-preferences">🍔 Favorite Food User Preferences</a></li>
-        <li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-model-view-view-model-mvvm-architecture">🌭 Model-View View-Model (MVVM) Architecture</a></li>
-        <li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-databases">🥪 Databases</a></li>
-        <li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-multipage-application">🍟 Multipage Application</a></li>
-        <li><a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-list-views">🌯 List Views</a></li>
+				<li><a href="#-application-programing-interfaces-apis">🥗 Application Programing Interfaces (APIs)</a></li>
+        <li><a href="#-favorite-food-user-preferences">🍔 Favorite Food User Preferences</a></li>
+        <li><a href="#-model-view-view-model-mvvm-architecture">🌭 Model-View View-Model (MVVM) Architecture</a></li>
+        <li><a href="#-databases">🥪 Databases</a></li>
+        <li><a href="#-multipage-application">🍟 Multipage Application</a></li>
+          <li><a href="#-list-views">🌯 List Views</a></li>
 			</ul>
-      <a href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-the-delicious-final-product">🎂 The Delicious Final Product</a><br><br>
+      <a href="#-the-delicious-final-product">🎂 The Delicious Final Product</a><br><br>
 		</td>
   	</tr>
 </table><br>
@@ -36,7 +36,7 @@ This course is rarely offered at Miami University, so I immediately signed up fo
 
 <br><br>
 ## 🌮 About The Program
-I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea solely because I wanted to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. I ended up paying to use two separate APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, with some points deducted from the midpoint demonstration.
+I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea solely because I wanted to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. So I paid to use two separate APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, with some points deducted from the midpoint demonstration.
 
 
 
@@ -61,7 +61,7 @@ This should allow you to run it within UWP and potentially an android simulation
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
 - [Get Specific Item Information](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information)
 
-The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a little bit more tedious and challenging, but it worked out great in the end. The first API takes a series of food/meal keywords and lists results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
+The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a little bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
 
 <br>
 
@@ -71,7 +71,7 @@ The best part about this program, without a doubt. I found this elegant API to u
 
 <br>
 
-Since this API only gave us the menu item, image, name, and restaurant, I had to take the food ID and query a second API and query that using the food from the first. It’s a bit meta and complicated at the start but very elegant when you draw it out on paper! The second API would bring back all of the nutrition facts that the GUI will show. After this, we now have all of the information needed to add to our local database/the user’s food diary.
+Since this API only gave us the menu item, image, name, and restaurant, I had to take the food ID and query a second API and query that used the food from the first. It’s a bit meta and complicated at the start but very elegant when you draw it out on paper! The second API would bring back all of the nutrition facts that the GUI will show. After this, we now have all of the information needed to add to our local database/the user’s food diary.
 
 <br>
 
@@ -187,7 +187,7 @@ List views appear throughout the program and show the diary contents, including 
 
 - - - -
 <h6 align="center">
-	<a align="center" href="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application#-meal-tracker-mobile-application">⬆ Back To The Top </a>
+	<a align="center" href="#-meal-tracker-mobile-application">⬆ Back To The Top </a>
 </h6>
 
 - - - -
@@ -199,6 +199,6 @@ List views appear throughout the program and show the diary contents, including 
 - - - -
 
 <h6 align="center">
-  Copyright © Ethan Gutknecht 2022
+  Copyright © Ethan Gutknecht 2021
 </h6>
 
