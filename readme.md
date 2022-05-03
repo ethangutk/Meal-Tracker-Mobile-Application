@@ -61,7 +61,7 @@ This should allow you to run it within UWP and potentially an android simulation
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
 - [Get Specific Item Information](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information)
 
-The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a little bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
+The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
 
 <br>
 
