@@ -25,6 +25,11 @@
       <a href="#-the-delicious-final-product">🎂 The Delicious Final Product</a><br><br>
 		</td>
   	</tr>
+	<tr>
+		<td align="center">
+			<a href="https://vscode.dev/github.com/ethangutknecht/Meal-Tracker-Mobile-Application/edit/main/readme.md">🔍 Explore the source code directly in<br>the browser using VSCode!</a>
+		</td>
+	</tr>
 </table><br>
 <br>
 
@@ -36,13 +41,13 @@ This course is rarely offered at Miami University, so I immediately signed up fo
 
 <br><br>
 ## 🌮 About The Program
-I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea solely because I wanted to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. So I paid to use two separate APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were also some other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, with some points deducted from the midpoint demonstration.
+I created this program as my final project for this class. I was between a couple of ideas since we got the freedom to choose, but I decided to use a meal tracker. I picked this idea solely because I wanted to experiment with APIs. I thought the concept of a meal tracker gave me a lot of opportunities to find different APIs about food online. So I paid to use two separate APIs from the same website, called [spoonacular](https://spoonacular.com/food-api). I used one to [search up menu items](https://spoonacular.com/food-api/docs#Search-Menu-Items), and based on the results of the other API, I would get the nutrition facts using [another API](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information). The program taught me a lot about this side of computer science. Along with the APIs, there were other features within the application. Additional project requirements included web services, user preferences, MVVM architecture, local databases, multipage, listviews, and images. The program was 22% of my final grade. I got a 94% on it, deducting some points from the midpoint demonstration.
 
 
 
 <br><br>
 ## 🥞 Note
-If you download this and run this program in Visual Studio, you might have to do a couple of things to run for the android and UWP simulation. First, you have to download the workload that uses Xamarin for cross-platform mobile application development. You can do this by going to <br>
+If you download this and run this program in Visual Studio, you might have to do a couple of things to run for the android and UWP simulation. First, you must download the workload using Xamarin for cross-platform mobile application development. You can do this by going to <br>
 
 <p align="center">
   <b>Tools > Get Tools and Features > Download Mobile Development with .NET</b><br><br>
@@ -61,7 +66,7 @@ This should allow you to run it within UWP and potentially an android simulation
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
 - [Get Specific Item Information](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information)
 
-The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. What I mean by this is that you couldn’t query the second API without the results from the first API. It made testing a bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched up “Taco Bell,” it would bring back the top ten menu items from Taco Bell. 
+The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. I mean that you couldn’t query the second API without the results from the first API. Testing was a bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched “Taco Bell,” it would return the top ten menu items from Taco Bell. 
 
 <br>
 
@@ -71,7 +76,7 @@ The best part about this program, without a doubt. I found this elegant API to u
 
 <br>
 
-Since this API only gave us the menu item, image, name, and restaurant, I had to take the food ID and query a second API and query that used the food from the first. It’s a bit meta and complicated at the start but very elegant when you draw it out on paper! The second API would bring back all of the nutrition facts that the GUI will show. After this, we now have all of the information needed to add to our local database/the user’s food diary.
+Since this API only gave us the menu item, image, name, and restaurant, I had to take the food ID and query a second API and query that used the food from the first. It’s a bit meta and complicated at the start but very elegant when you draw it out on paper! The second API would bring back all the nutrition facts the GUI will show. After this, we have all the information needed to add to our local database/the user’s food diary.
 
 <br>
 
@@ -81,7 +86,7 @@ Since this API only gave us the menu item, image, name, and restaurant, I had to
 
 <br>
 
-After this, we now have all of the information needed to add the entry to our local database/the user’s food diary. As you can see, the user can choose what meal they want to add it to and the date. That would get transferred to the Diary page and updated as needed.
+After this, we have all the information needed to add the entry to our local database/the user’s food diary. As you can see, the user can choose what meal they want to add it to and the date. That would get transferred to the Diary page and updated as needed.
 
 **Spoonacular API Dashboard:**
 
@@ -108,7 +113,7 @@ User preferences are a simple way to store values locally on a user’s device. 
 View  ↔  Controller  ↔  Model
 </p>
 
-A complex concept to learn within mobile applications. You have three different components within this concept that talk to each other. First, our application uses a slider on the summary page to update the calories on the screen. Second, instead of making an on update function, which we could have quickly done, the slider is tied directly to everything that needs to be updated on-screen. Third, it makes the phone use less power since it is more efficient and streamlined.
+A complex concept to learn within mobile applications. You have three different components within this concept that talk to each other. First, our application uses a slider on the summary page to update the calories on the screen. Second, instead of making an on-update function, which we could have quickly done, the slider is tied directly to everything that needs to be updated on-screen. Third, it makes the phone use less power since it is more efficient and streamlined.
 
 <br><br>
 ### 🥪 Databases
@@ -122,7 +127,7 @@ I used Visual Studio’s NuGet package search feature for this application to fi
  
 <br><br>
 ### 🍟 Multipage Application
-A multipage application UI defines your application’s navigation between multiple pages. My application is tabbed. You can navigate between pages using the buttons located at the top or bottom of your screen. The example below demonstrates only two tabs, Diary and Track.
+A multipage application UI defines your application’s navigation between multiple pages. My application is tabbed. You can navigate between pages using the buttons at the top or bottom of your screen. The example below demonstrates only two tabs, Diary and Track.
 
 <br>
 
@@ -132,7 +137,7 @@ A multipage application UI defines your application’s navigation between multi
 
 <br>
 
-Another navigation feature used is stacked navigation. Furthermore, when you search for a meal, a page will push on top of the stack. You cannot return to the original tabbed navigation until the user pops all the pages within the stack navigation.
+Another navigation feature used is stacked navigation. Furthermore, a page will push on top of the stack when you search for a meal. You cannot return to the original tabbed navigation until the user pops all the pages within the stack navigation.
 
 <br><br>
 ### 🌯 List Views
