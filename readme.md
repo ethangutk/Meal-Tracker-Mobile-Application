@@ -27,7 +27,7 @@
   	</tr>
 	<tr>
 		<td align="center">
-			<a href="https://vscode.dev/github.com/ethangutknecht/Meal-Tracker-Mobile-Application/edit/main/readme.md">🔍 Explore the source code directly in<br>the browser using VSCode!</a>
+			<a href="https://vscode.dev/github.com/ethangutknecht/Meal-Tracker-Mobile-Application">🔍 Explore the source code directly in<br>the browser using VSCode!</a>
 		</td>
 	</tr>
 </table><br>
@@ -66,7 +66,7 @@ This should allow you to run it within UWP and potentially an android simulation
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
 - [Get Specific Item Information](https://spoonacular.com/food-api/docs#Get-Menu-Item-Information)
 
-The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. I mean that you couldn’t query the second API without the results from the first API. Testing was a bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched “Taco Bell,” it would return the top ten menu items from Taco Bell. 
+The best part about this program, without a doubt. I found this elegant API to use online revolving around food. The two that I used depended on one another within my application. You couldn’t query the second API without the results from the first API. Testing was a bit more tedious and challenging, but it worked out great. The first API takes a series of food/meal keywords and lists the results closest to the keywords. So if I searched “Taco Bell,” it would return the top ten menu items from Taco Bell. 
 
 <br>
 
@@ -137,7 +137,7 @@ A multipage application UI defines your application’s navigation between multi
 
 <br>
 
-Another navigation feature used is stacked navigation. Furthermore, a page will push on top of the stack when you search for a meal. You cannot return to the original tabbed navigation until the user pops all the pages within the stack navigation.
+Another navigation feature used is stacked navigation. Furthermore, a page will push on top of the stack when searching for a meal. You cannot return to the original tabbed navigation until the user pops all the pages within the stack navigation.
 
 <br><br>
 ### 🌯 List Views
@@ -192,7 +192,7 @@ List views appear throughout the program and show the diary contents, including 
 
 - - - -
 <h6 align="center">
-	<a align="center" href="#-meal-tracker-mobile-application">⬆ Back To The Top </a>
+	<a align="center" href="#-back-to-ethan-gutknechts-profile">⬆ Back To The Top </a>
 </h6>
 
 - - - -
