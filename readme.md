@@ -15,7 +15,7 @@
 			<a href="#-about-the-program">🌮 About The Program</a><br><br>
 			<a href="#-the-tasty-features">🍕 The Tasty Features</a>
 			<ul>
-				<li><a href="#-application-programing-interfaces-apis">🥗 Application Programing Interfaces (APIs)</a></li>
+				<li><a href="#-application-programming-interfaces-apis">🥗 Application Programming Interfaces (APIs)</a></li>
         <li><a href="#-favorite-food-user-preferences">🍔 Favorite Food User Preferences</a></li>
         <li><a href="#-model-view-view-model-mvvm-architecture">🌭 Model-View View-Model (MVVM) Architecture</a></li>
         <li><a href="#-databases">🥪 Databases</a></li>
@@ -60,7 +60,7 @@ This should allow you to run it within UWP and potentially an android simulation
 
 <br><br><br>
 ## 🍕 The *Tasty* Features
-### 🥗 Application Programing Interfaces (APIs)
+### 🥗 Application Programming Interfaces (APIs)
 
 **APIs Used:**
 - [Search Up Menu Item](https://spoonacular.com/food-api/docs#Search-Menu-Items)
