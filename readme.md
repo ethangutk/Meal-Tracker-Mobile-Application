@@ -1,5 +1,5 @@
 <h6 >
-	<a href="https://github.com/ethangutknecht">↩ Back To Ethan Gutknecht's Profile</a>
+	<a href="https://github.com/ethangtkt">↩ Back To My Profile</a>
 </h6>
 
 <h1 align="center">🍽 Meal Tracker Mobile Application</h1><br>
@@ -27,7 +27,7 @@
   	</tr>
 	<tr>
 		<td align="center">
-			<a href="https://vscode.dev/github.com/ethangutknecht/Meal-Tracker-Mobile-Application">🔍 Explore the source code directly in<br>the browser using VSCode!</a>
+			<a href="https://vscode.dev/github.com/ethangtkt/Meal-Tracker-Mobile-Application">🔍 Explore the source code directly in<br>the browser using VSCode!</a>
 		</td>
 	</tr>
 </table><br>
@@ -51,7 +51,7 @@ If you download this and run this program in Visual Studio, you might have to do
 
 <p align="center">
   <b>Tools > Get Tools and Features > Download Mobile Development with .NET</b><br><br>
-  <img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Setup_1.png?raw=true">
+  <img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Setup_1.png?raw=true">
 </p>
 <br>
 
@@ -71,7 +71,7 @@ The best part about this program, without a doubt. I found this elegant API to u
 <br>
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/API_1.png?raw=true" width=275px>
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/API_1.png?raw=true" width=275px>
 </p>
 
 <br>
@@ -81,7 +81,7 @@ Since this API only gave us the menu item, image, name, and restaurant, I had to
 <br>
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/API_2.png?raw=true"  width=275px>
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/API_2.png?raw=true"  width=275px>
 </p>
 
 <br>
@@ -91,7 +91,7 @@ After this, we have all the information needed to add the entry to our local dat
 **Spoonacular API Dashboard:**
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/API_3.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/API_3.png?raw=true">
 </p>
 
 <br><br>
@@ -101,7 +101,7 @@ User preferences are a simple way to store values locally on a user’s device. 
 <br>
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Preferences_1.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Preferences_1.png?raw=true">
 </p>
 
 <br>
@@ -132,7 +132,7 @@ A multipage application UI defines your application’s navigation between multi
 <br>
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Tabbed_1.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Tabbed_1.png?raw=true">
 </p>
 
 <br>
@@ -146,8 +146,8 @@ List views appear throughout the program and show the diary contents, including 
 <br>
 
 <p align="center">
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/ListView_1.png?raw=true" width=275px> 
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/ListView_2.png?raw=true" width=275px>
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/ListView_1.png?raw=true" width=275px> 
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/ListView_2.png?raw=true" width=275px>
 </p>
 
 <br><br>
@@ -173,20 +173,20 @@ List views appear throughout the program and show the diary contents, including 
 ## 🎂 The *Delicious* Final Product
 
 <p align="center">
-  <img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_1.png?raw=true" width=275px>
-  <img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_2.png?raw=true" width=275px>
-  <img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_3.png?raw=true" width=275px>
+  <img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_1.png?raw=true" width=275px>
+  <img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_2.png?raw=true" width=275px>
+  <img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_3.png?raw=true" width=275px>
 </p>
 <br>
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_4.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_4.png?raw=true">
 
 <br>
 
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_5.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_5.png?raw=true">
 
 <br>
 
-<img src="https://github.com/ethangutknecht/Meal-Tracker-Mobile-Application/blob/main/Images/Final_6.png?raw=true">
+<img src="https://github.com/ethangtkt/Meal-Tracker-Mobile-Application/blob/main/Images/Final_6.png?raw=true">
 
 <br><br><br>
 
@@ -198,7 +198,7 @@ List views appear throughout the program and show the diary contents, including 
 - - - -
 
 <h6 align="center">
-	<a href="https://github.com/ethangutknecht">↩ Back To Ethan Gutknecht's Profile</a>
+	<a href="https://github.com/ethangtkt">↩ Back To Ethan Gutknecht's Profile</a>
 </h6>
 
 - - - -
