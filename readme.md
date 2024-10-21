@@ -1,5 +1,5 @@
 <h6 >
-	<a href="https://github.com/ethangtkt">↩ Back To My Profile</a>
+	<a href="https://github.com/ethangtkt">↩ Back To ethangtkt's Profile</a>
 </h6>
 
 <h1 align="center">🍽 Meal Tracker Mobile Application</h1><br>
