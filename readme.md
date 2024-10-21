@@ -192,18 +192,18 @@ List views appear throughout the program and show the diary contents, including 
 
 - - - -
 <h6 align="center">
-	<a align="center" href="#-back-to-ethan-gutknechts-profile">⬆ Back To The Top </a>
+	<a align="center" href="#-back-to-ethangtkts-profile">⬆ Back To The Top </a>
 </h6>
 
 - - - -
 
 <h6 align="center">
-	<a href="https://github.com/ethangtkt">↩ Back To My Profile</a>
+	<a href="https://github.com/ethangtkt">↩ Back To ethangtkts Profile</a>
 </h6>
 
 - - - -
 
 <h6 align="center">
-  Copyright © Ethan Gutknecht 2021
+  Copyright © ethangtkt 2021
 </h6>
 
