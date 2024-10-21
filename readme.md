@@ -198,7 +198,7 @@ List views appear throughout the program and show the diary contents, including 
 - - - -
 
 <h6 align="center">
-	<a href="https://github.com/ethangtkt">↩ Back To Ethan Gutknecht's Profile</a>
+	<a href="https://github.com/ethangtkt">↩ Back To My Profile</a>
 </h6>
 
 - - - -
